@@ -1,14 +1,14 @@
 public class Diploma {
-    String name;
-    String subject;
+	private String name;
+	private String subject;
 
-    public Diploma(String name, String subject){
-       this.name = name;
-       this.subject = subject;
-    }
+	public Diploma(String name, String subject) {
+		this.name = name;
+		this.subject = subject;
+	}
 
-    @Override
-    public String toString() {
-        return "This Certifies that "+name+"\n"+"has completed a MOOC in "+subject;
-    }
+	@Override
+	public String toString() {
+		return "This Certifies that " + name + "\n" + "has completed a MOOC in " + subject;
+	}
 }
