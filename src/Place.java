@@ -1,3 +1,3 @@
 public interface Place {
-    int distance(Place other) throws IllegalAccessException;
+	int distance(Place other);
 }

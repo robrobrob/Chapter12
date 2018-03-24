@@ -1,5 +1,5 @@
 import java.util.List;
 
-public interface ListWithSum extends List<Integer>{
-    int sum();
+public interface ListWithSum extends List<Integer> {
+	int sum();
 }
